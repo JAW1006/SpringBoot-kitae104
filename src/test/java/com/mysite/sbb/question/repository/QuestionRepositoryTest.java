@@ -24,8 +24,8 @@ class QuestionRepositoryTest {
         System.out.println("테스트 확인중...");
     }
 
-    @Test
-    //@Transactional
+//    @Test
+//    @Transactional
     void testSave(){
         Question q1 = new Question();
         q1.setSubject("SBB가 뭔가요?");
